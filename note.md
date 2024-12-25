@@ -3,6 +3,7 @@
 
 Repository(Repo): Thư mục dự án
 Branch: Mặc định master/main
+Conflict: Xung đột
 # Commands
 
 git init
@@ -18,3 +19,8 @@ git branch
 git checkout -b {branch name}
 git merger {branch}
 git branch -d {branch name}
+git push -u origin dev: push branch local to remote
+
+- Kéo 1 branch có sẵn trên remote nhưng chưa có ở local:
+git fetch origin 
+git checkout -b staging origin/staging
