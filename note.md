@@ -16,3 +16,5 @@ git checkout id: trở lại commit ban đầu
 git check out {branch name}
 git branch
 git checkout -b {branch name}
+git merger {branch}
+git branch -d {branch name}
